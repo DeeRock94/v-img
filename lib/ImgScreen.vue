@@ -30,7 +30,7 @@
             </a>
           </span>
           <span @click="close">
-            &times;
+            View Details
           </span>
         </div>
       </div>
