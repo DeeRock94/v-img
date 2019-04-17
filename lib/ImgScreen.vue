@@ -29,6 +29,9 @@
               </svg>
             </a>
           </span>
+          <span>
+            View File Details
+          </span>
           <span @click="close">
             &times;
           </span>
