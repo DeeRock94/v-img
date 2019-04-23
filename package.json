@@ -27,7 +27,9 @@
     "dist"
   ],
   "homepage": "https://github.com/crowdbotics/v-img",
-  "dependencies": {},
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
     "babel-plugin-external-helpers": "^6.22.0",
