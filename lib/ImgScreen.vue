@@ -20,7 +20,7 @@
         <span class="title-v-img">
           {{ titles[currentImageIndex] }}
         </span>
-        <div class="buttons-v-img">
+        <div class="buttons-v-img" style="width: 100%">
           <span v-if="sourceButtons[currentImageIndex]">
             <a :href="images[currentImageIndex]" target="_blank">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 475.078 475.077" style="enable-background:new 0 0 475.078 475.077;" xml:space="preserve">
@@ -29,6 +29,10 @@
               </svg>
             </a>
           </span>
+          <span @click="close">
+            <small style="font-size: 18px; padding: 10px;">File Details</small>
+          </span>
+
           <span @click="close">
             &times;
           </span>
