@@ -32,6 +32,12 @@
           <span @click="close">
             View Details
           </span>
+          <span @click="close">
+            View Details
+          </span>
+          <span @click="close">
+            View Details
+          </span>
         </div>
       </div>
 
