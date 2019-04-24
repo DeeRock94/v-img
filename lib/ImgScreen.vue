@@ -176,7 +176,7 @@ export default {
 }
 
 .fullscreen-v-img {
-  z-index: 9999;
+  z-index: 1336;
   height: 100%;
   width: 100%;
   position: fixed;
