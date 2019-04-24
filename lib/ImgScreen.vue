@@ -30,9 +30,7 @@
             </a>
           </span>
 
-          <span class="file-details-btn" @click="$emit('retrieveThisFile')">
-            <button class="btn btn-sm btn-primary">File Details</button>
-          </span>
+          {{ btn[currentImageIndex]}}
 
           <span @click="close">
             &times;
@@ -80,6 +78,7 @@ export default {
     return {
       images: [],
       titles: [],
+      btn: [],
       sourceButtons: [],
       visibleUI: true,
       currentImageIndex: 0,
