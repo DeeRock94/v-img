@@ -29,8 +29,9 @@
               </svg>
             </a>
           </span>
-          <span @click="close">
-            <small style="font-size: 18px; padding: 10px;">File Details</small>
+
+          <span class="file-details-btn">
+            <button class="btn btn-sm btn-primary">File Details</button>
           </span>
 
           <span @click="close">
