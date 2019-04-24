@@ -30,8 +30,6 @@
             </a>
           </span>
 
-          {{ btn[currentImageIndex]}}
-
           <span @click="close">
             &times;
           </span>
@@ -78,7 +76,6 @@ export default {
     return {
       images: [],
       titles: [],
-      btn: [],
       sourceButtons: [],
       visibleUI: true,
       currentImageIndex: 0,
