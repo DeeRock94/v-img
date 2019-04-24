@@ -30,7 +30,7 @@
             </a>
           </span>
 
-          <span class="file-details-btn">
+          <span class="file-details-btn" @click="this.$emit('retrieveThisFile')">
             <button class="btn btn-sm btn-primary">File Details</button>
           </span>
 
