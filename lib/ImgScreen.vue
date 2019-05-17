@@ -17,7 +17,7 @@
             {{ currentImageIndex + 1 }}/{{ images.length }}
           </span>
         </span>
-        <span class="title-v-img">
+        <span class="title-v-img" style="width: 20%">
           {{ titles[currentImageIndex] }}
         </span>
         <div class="buttons-v-img" style="width: 100%">
